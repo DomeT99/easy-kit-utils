@@ -1,7 +1,7 @@
-export function isArray<T>(notArray: T): boolean {
-  if (!Array.isArray(notArray)) {
-    return false;
+export function isArray<T>(param: T): boolean {
+  if (Array.isArray(param)) {
+    return true;
   }
 
-  return true;
+  return false;
 }
