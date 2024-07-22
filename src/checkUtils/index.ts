@@ -6,6 +6,8 @@ import { isEmptyString } from "./isEmptyString/isEmptyString";
 import { isTrue } from "./isTrue/isTrue";
 import { isMajorNumber } from "./isMajorNumber/isMajorNumber";
 import { isMajorSameNumber } from "./isMajorSameNumber/isMajorSameNumber";
+import { isMinorNumber } from "./isMinorNumber/isMinorNumber";
+import { isMinorSameNumber } from "./isMinorSameNumber/isMinorSameNumber";
 
 export {
   isBlankArray,
@@ -16,4 +18,6 @@ export {
   isTrue,
   isMajorNumber,
   isMajorSameNumber,
+  isMinorNumber,
+  isMinorSameNumber,
 };
