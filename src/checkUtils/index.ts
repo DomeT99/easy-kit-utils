@@ -4,5 +4,16 @@ import { isNull } from "./isNull/isNull";
 import { isUndefined } from "./isUndefined/isUndefined";
 import { isEmptyString } from "./isEmptyString/isEmptyString";
 import { isTrue } from "./isTrue/isTrue";
+import { isMajorNumber } from "./isMajorNumber/isMajorNumber";
+import { isMajorSameNumber } from "./isMajorSameNumber/isMajorSameNumber";
 
-export { isBlankArray, isArray, isNull, isUndefined, isEmptyString };
+export {
+  isBlankArray,
+  isArray,
+  isNull,
+  isUndefined,
+  isEmptyString,
+  isTrue,
+  isMajorNumber,
+  isMajorSameNumber,
+};
