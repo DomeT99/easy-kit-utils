@@ -3,6 +3,7 @@
   "description": "Simple JavaScript kit for common utils",
   "version": "0.1.0",
   "author": "Domenico 'Dvalin' Tenace <domenicotenace99@gmail.com> (https://linktr.ee/domenicotenace)",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/DomeT99/easy-kit-utils.git",
@@ -17,7 +18,12 @@
   ],
   "module": "./dist/index.js",
   "main": "./dist/index.js",
-  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
   "scripts": {
     "publish": "bun build src/index.ts --outdir ./dist",
     "test": "jest"
