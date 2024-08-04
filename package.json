@@ -1,7 +1,7 @@
 {
   "name": "easy-kit-utils",
   "description": "Simple JavaScript kit for common utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Domenico 'Dvalin' Tenace <domenicotenace99@gmail.com> (https://linktr.ee/domenicotenace)",
   "type": "module",
   "repository": {
